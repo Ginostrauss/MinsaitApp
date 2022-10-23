@@ -1,0 +1,2 @@
+# MinsaitApp
+Gestionale Minsait
