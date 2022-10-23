@@ -5,7 +5,7 @@ import { ProgettiComponent } from 'src/app/modules/progetti/progetti.component';
 import { RisorseComponent } from 'src/app/modules/risorse/risorse.component';
 import { SharedModule } from 'src/app/shared/shared.module';
 import { DefaultComponent } from './default.component';
-
+import {SplitterModule} from 'primeng/splitter';
 
 
 @NgModule({
@@ -17,7 +17,8 @@ import { DefaultComponent } from './default.component';
   imports: [
     CommonModule,
     RouterModule,
-    SharedModule
+    SharedModule,
+    SplitterModule
   ]
 })
 export class DefaultModule { }
